@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: {
+                comic: ['"Comic Neue"', 'cursive']
+                },
+            }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="font-comic w-[100vw] md:w-screen">
+    <header class="bg-gradient-to-r from-[#ff9900] to-[#ffcc00] flex flex-wrap items-center justify-evenly px-4 py-4">
+        <a href="#home" class="text-[#ff3300] font-bold text-4xl sm:text-5xl">SillySlip</a>
+        <div class="w-full mt-4 flex flex-col gap-4 items-center sm:mt-0 sm:flex-row sm:justify-end sm:gap-6 sm:w-auto">
+            <a href="#Home" class="text-[#8d0000] text-xl sm:text-2xl bg-[rgba(255,255,255,0.3)] hover:bg-[rgba(255,255,255,0.5)] px-6 py-2 rounded-full font-bold">
+            Oopsie Home
+            </a>
+            <a href="#Services" class="text-[#8d0000] text-xl sm:text-2xl bg-[rgba(255,255,255,0.3)] hover:bg-[rgba(255,255,255,0.5)] px-6 py-2 rounded-full font-bold">
+            Wacky Services
+            </a>
+            <a href="#Contact" class="text-[#8d0000] text-xl sm:text-2xl bg-[rgba(255,255,255,0.3)] hover:bg-[rgba(255,255,255,0.5)] px-6 py-2 rounded-full font-bold">
+            High-Five Us!
+            </a>
+        </div>
+    </header>
+    <div class="w-full h-[60vh] bg-yellow-300 bg-[url('08b077b8a8184214a621e09da7575604.jpg')] bg-cover bg-center bg-blend-multiply text-white flex flex-col items-center justify-center text-4xl font-bold" id="Home">
+        <h1 class="text-[60px] mb-[80px] drop-shadow-[10px_05px_0px_#f43f5e] text-center md:text-center">Watch Your Step!</h1>
+        <h3 class="text-[25px] text-center md:text-center ">The website where everything is intentionally ridiculous and nothing makes sense</h3>
+        <button class="bg-[#ff3300] text-white px-6 py-2 rounded-full border-4 border-white h-[70px] mt-[30px] md:mt-[80px] hover:bg-[#ff3720]">Slip This Way!</button>
+    </div>
+    <div class=" bg-[#ffffa0] w-full h-content bg-cover bg-center flex flex-col items-center " id="Services">
+        <h1 class="text-[#ff5500] text-[37px] font-bold text-center md:text-center md:text-[60px] drop-shadow-[20px_2px_0px_white]">Our Absurd Services</h1>
+        <div class="container flex flex-col items-center  md:flex md:flex-row md:justify-evenly">
+            <div class="card1 w-[300px] mb-5 md:w-[400px] bg-white flex flex-col justify-center items-center  py-10 px-10 md:hover:translate-y-[-10px] -rotate-2 md:-rotate-2 rounded-[26px] shadow-[10px_10px_0_rgba(255,85,0,0.2)] md:hover:scale-[1.03] md:hover:rotate-2 hover:shadow-[10px_10px_0_rgba(255,85,0,0.7)]">
+                <img src="cdb28cd55a45437ab239185d5e367774.jpg" alt="" height="150px" width="150px">
+                <h1 class="text-center text-[#ff5500] text-[45px] font-bold">Banana Peel Placement</h1>
+                <p class="text-[25px] text-[#666] text-center">Strategic positioning of slippery banana peels for maximum comedic effect. Our experts ensure proper slippage and hilarious falls.</p>
+            </div>
+            <div class="card2 w-[300px] mb-5 md:w-[400px] bg-white flex flex-col justify-center items-center py-10 px-10 -rotate-0 rounded-[26px] border-10 border-white shadow-[10px_10px_0_rgba(255,85,0,0.2)] hover:scale-[1.03] hover:rotate-2 hover:shadow-[10px_10px_0_rgba(255,85,0,0.7)]">
+                <img src="bb8759d20d2c4d5591529b51919344a1.png" alt="" height="150px" width="150px">
+                <h1 class="text-center text-[#ff5500] text-[45px] font-bold">Duck Invasion Services</h1>
+                <p class="text-[25px] text-[#666] text-center">We'll fill any space with rubber ducks. Bathtubs, offices, cars - nowhere is safe from our quacking invaders. Satisfaction guaranteed!</p>
+            </div>
+            <div class="card3 w-[300px] mb-5 md:w-[400px] bg-white flex flex-col justify-center items-center py-10 px-10 rotate-3 rounded-[26px] border-10 border-white shadow-[10px_10px_0_rgba(255,85,0,0.2)] hover:scale-[1.03] hover:rotate-2 hover:shadow-[10px_10px_0_rgba(255,85,0,0.7)]">
+                <img src="08b077b8a8184214a621e09da7575604.jpg" alt="" height="150px" width="150px">
+                <h1 class="text-center text-[#ff5500] text-[45px] font-bold">Pratfall Training</h1>
+                <p class="text-[25px] text-[#666] text-center">Learn to fall dramatically without injury! Our certified Stunt Stumblers will teach you how to trip over nothing for maximum attention.</p>
+            </div>
+        </div>
+        <div class="container flex flex-col items-center  md:flex md:flex-row md:justify-evenly">
+            <div class="card4 w-[300px] mb-5 md:w-[400px] bg-white flex flex-col justify-center items-center  py-10 px-10 md:hover:translate-y-[-10px] -rotate-2 md:-rotate-2 rounded-[26px] shadow-[10px_10px_0_rgba(255,85,0,0.2)] md:hover:scale-[1.03] md:hover:rotate-2 hover:shadow-[10px_10px_0_rgba(255,85,0,0.7)]">
+                <img src="036d50e6d2b442659133009554374613.png" alt="" height="150px" width="150px">
+                <h1 class="text-center text-[#ff5500] text-[45px] font-bold">Silly Walk Consultation</h1>
+                <p class="text-[25px] text-[#666] text-center">Develop your unique silly walk with our Ministry-certified consultants. Stand out in crowds with inexplicable limb movements!</p>
+            </div>
+            <div class="card5 w-[300px] mb-5 md:w-[400px] bg-white flex flex-col justify-center items-center  py-10 px-10 md:hover:translate-y-[-10px] -rotate-2 md:-rotate-2 rounded-[26px] shadow-[10px_10px_0_rgba(255,85,0,0.2)] md:hover:scale-[1.03] md:hover:rotate-2 hover:shadow-[10px_10px_0_rgba(255,85,0,0.7)]">
+                <img src="cdb28cd55a45437ab239185d5e367774.jpg" alt="" height="150px" width="150px">
+                <h1 class="text-center text-[#ff5500] text-[45px] font-bold">Professional Pie Throwing</h1>
+                <p class="text-[25px] text-[#666] text-center">Hire our skilled pie marksmen for birthdays, weddings, or corporate events. We never miss a face and only use the messiest cream fillings.</p>
+            </div>
+            <div class="card6 w-[300px] mb-5 md:w-[400px] bg-white flex flex-col justify-center items-center py-10 px-10 -rotate-0 rounded-[26px]  shadow-[10px_10px_0_rgba(255,85,0,0.2)] hover:scale-[1.03] hover:rotate-2 hover:shadow-[10px_10px_0_rgba(255,85,0,0.7)]">
+                <img src="bb8759d20d2c4d5591529b51919344a1.png" alt="" height="150px" width="150px">
+                <h1 class="text-center text-[#ff5500] text-[45px] font-bold">Random Honking</h1>
+                <p class="text-[25px] text-[#666] text-center">Our team will appear at unpredictable times to honk bicycle horns near you. Perfect for adding spontaneous surprise to boring meetings!</p>
+            </div>
+        </div>
+        <div class="container mb-10 mt-[20px] w-[300px] px-[17px] md:w-[1390px] md:px-[100px] h-content bg-white border-4 border-[#ff9900] border-dashed rounded-[15px] py-[50px] md:py-[100px]" id="Contact">
+            <h1 class="text-[#ff5500] text-[37px] font-bold text-center md:text-center md:text-[60px] drop-shadow-[20px_2px_0px_white]">Get In Touch(If You Dare!)</h1>
+            <div class="container flex flex-col items-center md:flex md:flex-row md:justify-between">
+                <div class="container ">
+                    <label class="text-center text-[#ff5500] text-[25px] font-bold mb-1 md:mb-1">Your Silly Name</label><br>
+                    <input type="text" placeholder="Sir laughs-a-lot" class="font-bold [270px] md:w-[500px] h-[60px] rounded-[10px] px-5 bg-[#fffbea] text-[#333] border-2 border-[#ff9900] border-solid  focus:outline-[#ff3300]">
+                </div>
+                <div class="container">
+                    <label class="text-center text-[#ff5500] text-[25px] font-bold mb-1 md:mb-1">Your Silly Title</label><br>
+                    <input type="text" placeholder="Duke of Duckworth" class="font-bold [270px] md:w-[500px] h-[60px] rounded-[10px] px-5 bg-[#fffbea] text-[#333] border-2 border-[#ff9900] border-solid  focus:outline-[#ff3300]">
+                </div>
+            </div>
+            <div class="container mt-2 md:mt-2 flex flex-col items-center md:flex md:flex-row md:justify-between">
+                <div class="container">
+                    <label class="text-center text-[#ff5500] text-[25px] font-bold mb-1 md:mb-1">Your Nonsense Email</label><br>
+                    <input type="email" placeholder="Banana@slippery.com" class="font-bold [270px] md:w-[500px] h-[60px] rounded-[10px] px-5 bg-[#fffbea] text-[#333] border-2 border-[#ff9900] border-solid  focus:outline-[#ff3300]">
+                </div>
+                <div class="container">
+                    <label class="text-center text-[#ff5500] text-[25px] font-bold mb-1 md:mb-1">Emergency Quack Line!</label><br>
+                    <input type="text" placeholder="555-Duck-Duck" class="font-bold [270px] md:w-[500px] h-[60px] rounded-[10px] px-5 bg-[#fffbea] text-[#333] border-2 border-[#ff9900] border-solid  focus:outline-[#ff3300]">
+                </div>
+            </div>
+            <div class="container">
+                    <label class="text-center text-[#ff5500] text-[25px] font-bold mb-1 md:mb-1">Your Ridiculous Request</label><br>
+                    <input type="text" placeholder="555-Duck-Duck" class="font-bold w-[230px] md:w-[1100px] h-[100px] rounded-[10px] px-5 bg-[#fffbea] text-[#333] border-2 border-[#ff9900] border-solid focus:outline-[#ff3300]">
+            </div>
+            <button class="bg-[#ff3300] text-white px-6 py-2 rounded-full  h-[70px] mt-[30px] md:mt-4 hover:bg-[#ff3720] font-bold text-[23px]">Send this Nonsense!</button>
+        </div>
+    </div>
+    <footer class="bg-[#ff9900] font-bold text-center md:text-center text-white flex flex-col items-center">
+        <div class="container flex justify-evenly">
+            <a href="#Home" class="text-white text-2xl px-6 py-2 rounded-full font-bold">Slip Home</a>
+            <a href="#Services" class="text-white text-2xl px-6 py-2 rounded-full font-bold">Silly Services</a>
+            <a href="#Contact" class="text-white text-2xl px-6 py-2 rounded-full font-bold">Quack at us!</a>
+        </div>
+        <h2>Not-So-Terms of Service</h2>
+        <h3>© 2024 SillySlip Ltd. No Bananas Were Harmed In The Making Of This Website.</h3>
+    </footer>
+</body>
+</html>
